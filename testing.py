@@ -3,7 +3,7 @@
 #https://bitre.gov.au/statistics/safety/files/Fatal_Crashes_Sep_2016.csv
 import csv
 import urllib.request
-from os import path
+
 
 response = urllib.request.urlopen('https://bitre.gov.au/statistics/safety/files/Fatal_Crashes_Sep_2016.csv')
 html = response.read()
