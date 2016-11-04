@@ -11,7 +11,7 @@ outfile2 = open('testing2.csv','wb')
 outfile2.write(html)
 
 inputf =csv.reader(open("testing2.csv","r"), delimiter=",")
-crashes = open('crashes.csv',"w")
+crashes = open('crashes1.csv',"w")
 
 #read csv file into array
 
@@ -21,7 +21,7 @@ for line in inputf:
 lines = fileLines[1:]
 
 fileLines[0][6]='Speed Group'
-fileLines[0][2]='Quarter'
+fileLines[0][0]='Quarter'
 
 #replacing blank cells with unknown,never delete due to the other attributes might sway the analysze.     
 for i, line in enumerate(lines):
@@ -103,16 +103,17 @@ for i,x in enumerate(Monthcol):
 
 for i, x in enumerate(speedcol):
     if x == 'unknown':
-        continue
+        lines[i][6]='Speed D:Unknown'
     speed = int(x)
     if speed >= 80:
         lines[i][6]='Speed A:Very Fast'
-    if speed >=60 and speed <80:
+    elif speed >=60 and speed <80:
         lines[i][6]='Speed B:Fast'
-    if speed >=40 and speed<60:
+    elif speed >=40 and speed<60:
         lines[i][6]='Speed C:Medium'
     else:
-        lines[i][6]='Speed D:Slow'
+        'Cunt\'s fucked'
+    
         
 
 
