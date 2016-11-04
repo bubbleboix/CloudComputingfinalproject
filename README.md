@@ -40,7 +40,7 @@ illegally on your phone.
 
 On the go - Power BI has a moblie phone apps to enable fast and on the go analyses 
 
-Handling mass amount of data- the file was 20k cells long , easily would have hanged excelled.
+Handling mass amount of data- the file was 20k cells long , easily would have hanged excel.
 
 Effective cloud base solutions:
 
