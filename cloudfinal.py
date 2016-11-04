@@ -11,7 +11,7 @@ outfile2 = open('testing2.csv','wb')
 outfile2.write(html)
 
 inputf =csv.reader(open("testing2.csv","r"), delimiter=",")
-crashes = open('crashes2.csv',"w")
+crashes = open('crashes.csv',"w")
 
 #read csv file into array
 
@@ -20,7 +20,9 @@ for line in inputf:
     fileLines.append(line)
 lines = fileLines[1:]
 
-fileLines[0][6]='faggot dick'
+fileLines[0][6]='Speed Group'
+fileLines[0][2]='Quarter'
+
 #replacing blank cells with unknown,never delete due to the other attributes might sway the analysze.     
 for i, line in enumerate(lines):
     for j, cell in enumerate(line):

@@ -1,4 +1,4 @@
-State,Day,CrashID,Month,Year,Hour,Crash_Type,Number_of_Fatalities,Bus_Involvement,Heavy_Rigid_Truck_Involvement,faggot dick,Articulated_Truck_Involvement,Speed_Limit
+State,Quarter,CrashID,Month,Year,Hour,Crash_Type,Number_of_Fatalities,Bus_Involvement,Heavy_Rigid_Truck_Involvement,Speed Group,Articulated_Truck_Involvement,Speed_Limit
 SA,1,1st Quarter,01.January,2016,Night,Single vehicle,1,No,No,Speed D:Slow,No,110
 VIC,1,1st Quarter,01.January,2016,Night,Single vehicle,1,No,No,Speed D:Slow,No,80
 NSW,2,1st Quarter,01.January,2016,Night,Single vehicle,1,No,No,Speed D:Slow,No,100
