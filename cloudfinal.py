@@ -11,7 +11,7 @@ outfile2 = open('testing2.csv','wb')
 outfile2.write(html)
 
 inputf =csv.reader(open("testing2.csv","r"), delimiter=",")
-crashes = open('crashes1.csv',"w")
+crashes = open('crashes.csv',"w")
 
 #read csv file into array
 
@@ -87,7 +87,6 @@ for i,x in enumerate(Monthcol):
         lines[i][3]='12.December'
 
 #concpet hierachry for months into quarters
-
 for i,x in enumerate(Monthcol):
     if x =='unknown':
         continue
@@ -103,7 +102,8 @@ for i,x in enumerate(Monthcol):
 
 for i, x in enumerate(speedcol):
     if x == 'unknown':
-        lines[i][6]='Speed D:Unknown'
+        lines[i][6]='Speed E:Unknown'
+        continue
     speed = int(x)
     if speed >= 80:
         lines[i][6]='Speed A:Very Fast'
@@ -111,8 +111,9 @@ for i, x in enumerate(speedcol):
         lines[i][6]='Speed B:Fast'
     elif speed >=40 and speed<60:
         lines[i][6]='Speed C:Medium'
-    else:
-        'Cunt\'s fucked'
+    elif speed <40:
+        lines[i][6]='Speed D:Slow'
+  
     
         
 
