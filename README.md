@@ -23,7 +23,7 @@ Making this project fully cloud enabled.
 Note: Power BI has a desktop application that allows for data cleaning and type indication of the attributes as csv files are stored as text, but for the purpose of this project I will not be using the
 offline application to fully use the cloud.
 
-Core/Functional Requirements of business analysis:
+Core/Functional Requirements of business analysis(fulfilled):
 1.The application is able to display data in traditional pie , graph, scatter and most commonly used display tools, enabling it to be used to make business decisions and even has an automated liner regression function making predication easier to display to upper management.
 2.It is able to form traditional functions such as slice and dice roll down and roll up etc.
 3.It is able to handle data from multiple sources such as csv, excel and cloud base data base making it flexible with data uploads.
@@ -39,11 +39,18 @@ Negative Points:
 4.Data upload was also a negative point, as excel files had the restrictions of type. If a cell attributes does not match the heading or other cells types in the same column it will lead to an error upon upload.
 for example "unknown as a string but 1,2 3 as int"
 
-Secondary function/non core functions:
+Secondary function/non core functions(fulfilled):
 1.Security wise , power BI is link to your uwa account and reports code are generated specifically by the admin and sharing of codes or link or QR code is a human risk and not a Security breach due to tech issues.
 Report generated also can be save to your account and users can generate reports without touching your main report.
 2.Sharing capabilities is also demonstrated above and power BI is also available on mobile making decisions on the go easier.
 3.User can also upload specifics graphical representation using codes to generate such as python or matlib, giving flexibility to users.
 4.Efficiency power BI has never taken a down time and can even be used offline by their desktop application and uploading back to the cloud when internet connectivity is available.
 
+OFfline/small scale use:
+Power bi desktop application can do what the cloud does, just the sharing function needs an active internet connection.
+
 Suggestion for improvement:
+Make data cleaning possible and comparing of 2 or more attributes possible in the dashboard and work on making data upload a more pleasant experience.
+
+Credit:
+None the whole analyse was done first name and using the database unit as a guide line. 
