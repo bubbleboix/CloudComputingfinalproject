@@ -5,14 +5,15 @@ URL Link for the analyses:
 https://app.powerbi.com/view?r=eyJrIjoiMjQ4NmMwYWUtMzgwYy00NzkzLWE1OWUtNGJjNzUyYjdiN2IzIiwidCI6IjY3NzgyNTdmLThiY2YtNDA0Mi1hY2YxLTRmZDc3ZmQ5MzY2ZiIsImMiOjEwfQ%3D%3D
 
 Instruction:
-Upload the database via Get Data on the bottom left.\r\n
+Upload the database via Get Data on the bottom left.
 Do your report with the graphical tools on the top right
 Filter via page filter and report filter to compare the attributes from on column or from 2, use advance filtering instead of basic to perform specific slice and dice function or rollup drill down function.
 Save the report on to your dashboard
 Share the dashboard with people you want to read but not write
-Share the report with people you want to be able to access the data.
+Share the report with people you want to be able to access the data, via share icon (atom icon) or the content package on the top
+Generate a QR code to enable quick sharing and viewing on mobile , dashboard ->generate qr code
 Your done.
-an average report takes about 20-30 minutes to generate.
+an average report takes about 20-30 minutes to generate* keep in mind I have experience doing the same project and some statistic knowledge.
 
 Cloud function:
 in theory the script does not need a local server at all , power BI allows u to pull files from Microsoft one drive....
@@ -51,7 +52,7 @@ OFfline/small scale use:
 Power bi desktop application can do what the cloud does, just the sharing function needs an active internet connection.
 
 Suggestion for improvement:
-Make data cleaning possible and comparing of 2 or more attributes possible in the dashboard and work on making data upload a more pleasant experience.
+Make data cleaning possible and comparing of 2 or more attributes possible in the dashboard and work on making data upload a more pleasant experience and allow for cutting and slice function in the dashboard function by users so they can do their own filtering without the need to give them access to the database or report* add additional slice and dice for viewing guest/management.
 
 Credit:
 None the whole analyse was done first name and using the database unit as a guide line.
