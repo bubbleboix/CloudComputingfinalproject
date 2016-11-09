@@ -3,17 +3,16 @@
 #https://bitre.gov.au/statistics/safety/files/Fatal_Crashes_Sep_2016.csv
 import csv
 import urllib.request
-import onedrivesdk
 
 
 response = urllib.request.urlopen('https://bitre.gov.au/statistics/safety/files/Fatal_Crashes_Sep_2016.csv')
 html = response.read()
 
-outfile2 = open('testing2.csv','wb')
+outfile2 = open('Input.csv','wb')
 outfile2.write(html)
 
-inputf =csv.reader(open("testing2.csv","r"), delimiter=",")
-crashes = open('crashes.csv',"w")
+inputf =csv.reader(open("Input.csv","r"), delimiter=",")
+crashes = open('InputClean.csv',"w")
 
 #read csv file into array
 
