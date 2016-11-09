@@ -5,7 +5,7 @@ URL Link for the analyses:
 https://app.powerbi.com/view?r=eyJrIjoiMjQ4NmMwYWUtMzgwYy00NzkzLWE1OWUtNGJjNzUyYjdiN2IzIiwidCI6IjY3NzgyNTdmLThiY2YtNDA0Mi1hY2YxLTRmZDc3ZmQ5MzY2ZiIsImMiOjEwfQ%3D%3D
 
 Instruction:
-Upload the database via Get Data on the bottom left.\n
+Upload the database via Get Data on the bottom left.\r\n
 Do your report with the graphical tools on the top right
 Filter via page filter and report filter to compare the attributes from on column or from 2, use advance filtering instead of basic to perform specific slice and dice function or rollup drill down function.
 Save the report on to your dashboard
