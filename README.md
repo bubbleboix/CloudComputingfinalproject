@@ -5,7 +5,7 @@ URL Link for the analyses:
 https://app.powerbi.com/view?r=eyJrIjoiMjQ4NmMwYWUtMzgwYy00NzkzLWE1OWUtNGJjNzUyYjdiN2IzIiwidCI6IjY3NzgyNTdmLThiY2YtNDA0Mi1hY2YxLTRmZDc3ZmQ5MzY2ZiIsImMiOjEwfQ%3D%3D
 
 Instruction:
-Upload the database via Get Data on the bottom left.
+Upload the database via Get Data on the bottom left.\n
 Do your report with the graphical tools on the top right
 Filter via page filter and report filter to compare the attributes from on column or from 2, use advance filtering instead of basic to perform specific slice and dice function or rollup drill down function.
 Save the report on to your dashboard
@@ -16,7 +16,8 @@ an average report takes about 20-30 minutes to generate.
 
 Cloud function:
 in theory the script does not need a local server at all , power BI allows u to pull files from Microsoft one drive....
-https://pypi.python.org/pypi/python-onedrive/15.10.5
+https://pypi.python.org/pypi/python-onedrive/15.10.5 or https://github.com/OneDrive/onedrive-sdk-python
+
 unable to perform the commands due to the code does not work for python 3 or access error.
 it even possible to save the link as csv file and do the data cleaning in your ram and upload it to your Microsoft one drive account, skipping the need for any data to be stored in any local hard disk.
 Making this project fully cloud enabled.
@@ -53,4 +54,4 @@ Suggestion for improvement:
 Make data cleaning possible and comparing of 2 or more attributes possible in the dashboard and work on making data upload a more pleasant experience.
 
 Credit:
-None the whole analyse was done first name and using the database unit as a guide line. 
+None the whole analyse was done first name and using the database unit as a guide line.
