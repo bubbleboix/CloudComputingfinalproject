@@ -4,6 +4,7 @@
 import csv
 import urllib.request
 import os
+#in the last line use start instead of open if you are using a macbook :)
 
 response = urllib.request.urlopen('https://bitre.gov.au/statistics/safety/files/Fatal_Crashes_Sep_2016.csv')
 html = response.read()
