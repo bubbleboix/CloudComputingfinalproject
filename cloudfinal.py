@@ -3,7 +3,7 @@
 #https://bitre.gov.au/statistics/safety/files/Fatal_Crashes_Sep_2016.csv
 import csv
 import urllib.request
-
+import os
 
 response = urllib.request.urlopen('https://bitre.gov.au/statistics/safety/files/Fatal_Crashes_Sep_2016.csv')
 html = response.read()
@@ -124,6 +124,8 @@ outputLines=['%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s\n'%(r[1],r[2],r[0],r[3],r[4
 crashes.writelines(outputLines)
 crashes.close()
 
+#f = urllib.request.urlopen("https://powerbi.microsoft.com/en-us/")
+os.system("start https://powerbi.microsoft.com/en-us/")
 
 
 
